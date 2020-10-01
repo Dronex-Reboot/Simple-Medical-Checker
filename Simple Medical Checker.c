@@ -988,4 +988,28 @@ int menu(){
 		position=position;
 	}
 }	
+	switch(position){
+		case 1:{
+			system("cls");
+			bmibmr();
+			break;
+		}
+		case 2:{
+			system("cls");
+			bantuan();
+			break;
+		}
+		case 3:{
+			system("cls");
+			return 0;
+			break;
+		}
+	}
+	
+}
+
+int main(){
+	menu();
+}
+
 	
